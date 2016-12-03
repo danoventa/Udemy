@@ -2,6 +2,14 @@
  * Created by Daniel A. Noventa on 12/2/2016.
  */
 
+// scope
+(function (lastname){
+    var firstname = "Jonas";
+    console.log(firstname);
+    console.log(lastname);
+
+}("Arks"));
+
 // pass by value
 function change(b){
     b = 2;
