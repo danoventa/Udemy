@@ -1,7 +1,9 @@
 /**
  * Created by danny on 12/3/2016.
  */
-var great = require('/great');
+var groot = require('./groot');
 
-great.english();
-great.spanish();
+groot.english();
+groot.spanish();
+groot.french();
+groot.mandarin();
