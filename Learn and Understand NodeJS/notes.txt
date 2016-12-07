@@ -1,0 +1,5 @@
+'.' is needed before the directory, to denote that it is in this current directory, instead of giving it the full path. Don't forget when importing!
+
+libuv C++ system events
+Event Emitter Javascript Core custom events
+
