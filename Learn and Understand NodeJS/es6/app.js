@@ -1,4 +1,8 @@
-'use string';
+'use strict';
+var Greeter = require('./greeter');
+
+var greeter1 = new Greeter();
+greeter1.greet("DAN");
 
 class Person {
     constructor(firstname, lastname){
