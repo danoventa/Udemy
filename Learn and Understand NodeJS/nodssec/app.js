@@ -1,4 +1,22 @@
 var fs = require('fs');
+var zlib = require('zlib');
+
+var readables = fs.createReadStream(__dirname + '/groot.txt');
+var writeables = fs.createWriteStream(__dirname + '/grootcopy.txt');
+var compressables = fs.createWriteStream(__dirname + '/greet.txt.gz');
+
+var gzip = zlib.createGzip();
+
+readables.pipe(writeables);
+readables.pipe(gzip).pipe(compressables);
+
+var readable = fs.createReadStream(__dirname +
+'/groot.txt');
+
+readable.on('data', function(chunk){
+    console.log(chunk);
+})
+
 
 var groot = fs.readFileSync(__dirname + '/groot.txt', 'utf8');
 console.log(groot);
