@@ -3,3 +3,16 @@
 libuv C++ system events
 Event Emitter Javascript Core custom events
 
+template literal: how concatonate strings?
+- 
+
+Node:
+    - node is a server.
+    - node treats the packets as a string. 
+    - specify port constantly
+    
+Web Sockets:
+    - stay open continuously. 
+    
+MIME types: the type of data being sent. 
+
