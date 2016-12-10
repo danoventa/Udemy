@@ -16,3 +16,7 @@ Web Sockets:
     
 MIME types: the type of data being sent. 
 
+NPM
+
+Lots of middleware. Check out express middleware. 
+
