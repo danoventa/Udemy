@@ -28,3 +28,10 @@ Just means follow good urls as verbs (do something)
 
 Express makes RESTfule APIs easy peasy. 
 
+Structuring an app... 
+
+NOSQL = Document Database? 
+    - MongoDB Checkout mongodb website.. 
+    - Mongoose (NPM Package) 
+    
+Install MySQL and MongoDB
