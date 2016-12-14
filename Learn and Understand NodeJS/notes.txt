@@ -20,3 +20,11 @@ NPM
 
 Lots of middleware. Check out express middleware. 
 
+REST: Architectual style for building APIS
+- Representational State Transfer
+
+Just means follow good urls as verbs (do something)
+- follow good url structure and deal with http methods the way one would anticipate. 
+
+Express makes RESTfule APIs easy peasy. 
+
