@@ -1,5 +1,5 @@
 {
-  "name": "learn-and-understand-nodejs",
+  "name": "node-todo",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -13,5 +13,15 @@
     "express": "~4.14.0",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0"
-  }
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
