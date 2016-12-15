@@ -35,3 +35,12 @@ NOSQL = Document Database?
     - Mongoose (NPM Package) 
     
 Install MySQL and MongoDB
+
+Node Todo (a Mini application?) :
+    - does the backbone applications. 
+    - figure out how to npm on the fly. 
+    
+Seed data : give it some initial data. 
+
+
+User Postman to get API stuff without having to create an entire front end. Nifty for testing. 

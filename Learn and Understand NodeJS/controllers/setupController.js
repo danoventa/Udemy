@@ -1,4 +1,4 @@
-var Todos = require('../models/todoModel');
+var Todos = require('../models/todoModels');
 
 module.exports = function(app){
     app.get('/api/setupTodos', function(request, response){
@@ -22,6 +22,9 @@ module.exports = function(app){
                 isDone: false,
                 hasAttachment: false
             }
-        ]
+        ];
+        Todos.create(starterTodos, function(err, results){
+            response.send(results);
+        })
     })
 }
