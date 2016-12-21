@@ -1,0 +1,12 @@
+Built in helper methods (seem similar to Python)
+    - forEach 
+        - can use anonymous functions. 
+    - map
+    - filter
+    - find
+    - every
+    - some
+    - reduce
+    
+have a return statement in the functions... 
+
