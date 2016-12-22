@@ -4,12 +4,7 @@ function lessThanFifteen(number){
 };
 function rejects(array, iteratorFunction){
     var black = array.filter(iteratorFunction);
-    console.log(black);
-    var good = array.filter(function(number){
-        console.log(number);
-        console.log(number in black);
-        return (!(number in black));
-    });
+    var good = array.forEach()
     console.log(good);
     return good;
 };
