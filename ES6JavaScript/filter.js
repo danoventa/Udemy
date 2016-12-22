@@ -1,3 +1,21 @@
+var numbers = [10, 20, 30];
+function lessThanFifteen(number){
+    return number > 15;
+};
+function rejects(array, iteratorFunction){
+    var black = array.filter(iteratorFunction);
+    console.log(black);
+    var good = array.filter(function(number){
+        console.log(number);
+        console.log(number in black);
+        return (!(number in black));
+    });
+    console.log(good);
+    return good;
+};
+
+console.log(rejects(numbers, lessThanFifteen));
+
 var post = {id:4, title:'New post'};
 
 var comments = [
