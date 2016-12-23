@@ -3,10 +3,9 @@ function lessThanFifteen(number){
     return number > 15;
 };
 function rejects(array, iteratorFunction){
-    var black = array.filter(iteratorFunction);
-    var good = array.forEach()
-    console.log(good);
-    return good;
+    return array.filter(function(number){
+        return !iteratorFunction(number);
+    })
 };
 
 console.log(rejects(numbers, lessThanFifteen));
