@@ -18,43 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="start.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/start.js">
+      <file leaf-file-name="find.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/find.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#42#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forEach.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/forEach.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/map.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="filter.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/filter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -76,6 +44,7 @@
         <option value="$PROJECT_DIR$/builtIn.js" />
         <option value="$PROJECT_DIR$/map.js" />
         <option value="$PROJECT_DIR$/filter.js" />
+        <option value="$PROJECT_DIR$/find.js" />
       </list>
     </option>
   </component>
@@ -129,7 +98,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
-  <component name="RunManager" selected="Node.js.filter.js">
+  <component name="RunManager" selected="Node.js.find.js">
     <configuration default="false" name="start.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="start.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
@@ -140,6 +109,9 @@
       <method />
     </configuration>
     <configuration default="false" name="filter.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="filter.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="find.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="find.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -195,18 +167,20 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.start.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.builtIn.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.map.js" />
       <item index="3" class="java.lang.String" itemvalue="Node.js.filter.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.find.js" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.filter.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.map.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.builtIn.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.start.js" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.find.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.filter.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.map.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.builtIn.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.start.js" />
       </list>
     </recent_temporary>
   </component>
@@ -223,12 +197,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1482124746348</updated>
-      <workItem from="1482124747475" duration="9604000" />
+      <workItem from="1482124747475" duration="10409000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9604000" />
+    <option name="totallyTimeSpent" value="10409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
@@ -302,6 +276,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

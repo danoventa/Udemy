@@ -10,3 +10,4 @@ Built in helper methods (seem similar to Python)
     
 have a return statement in the functions... 
 
+Filters, you can not a function, in order to reject its values.
