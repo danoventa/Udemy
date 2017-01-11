@@ -1,3 +1,14 @@
+function unique(array){
+    return array.reduce(function(arr2, arr1){
+        if(!arr2.find(function(num){return num === arr1})){arr2.push(arr1)}
+        return arr2;
+    }, [])
+}
+
+var arr = [1, 1, 2, 3, 4, 4, 5, 6];
+console.log(unique(arr));
+
+
 var tvs = [
     {type: 'flat'},
     {type: 'flat'},
