@@ -1,5 +1,9 @@
 function Field(value){
     this.value = value;
+
+    this.validate = function(){
+        console.log("A OK");
+    }
 }
 
 Field.prototype.validate = function(){
