@@ -1,3 +1,21 @@
+var tvs = [
+    {type: 'flat'},
+    {type: 'flat'},
+    {type: 'curved'},
+    {type: 'flat'},
+    {type: 'curved'},
+    {type: 'curved'},
+    {type: 'flat'}
+];
+
+var tvTypes = tvs.reduce(function(arr, tv){
+    if(tv.type === 'flat'){arr.flat += 1}
+    if(tv.type === 'curved'){arr.curved += 1}
+    return arr
+}, {flat: 0, curved: 0});
+
+console.log(tvTypes);
+
 function balancedParens(string){
     return string.split("").reduce(function(previous, char){
         if(previous < 0) {return previous}
