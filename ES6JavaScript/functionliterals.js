@@ -1,3 +1,10 @@
+function saveFile(){
+    $.ajax({ method: 'POST', url, data});
+};
+
+const url = 'http://fileupload.com';
+const data = {color: 'red'};
+
 function createBookShop(inventory){
     return {
         inventory: inventory,
