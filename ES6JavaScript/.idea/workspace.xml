@@ -38,11 +38,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reduce.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reduce.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reduce.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="459">
+              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="constletvar.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/constletvar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,6 +77,7 @@
         <option value="$PROJECT_DIR$/find.js" />
         <option value="$PROJECT_DIR$/everysome.js" />
         <option value="$PROJECT_DIR$/reduce.js" />
+        <option value="$PROJECT_DIR$/constletvar.js" />
       </list>
     </option>
   </component>
@@ -121,10 +132,7 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Node.js.reduce.js">
-    <configuration default="false" name="map.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="map.js" working-dir="$PROJECT_DIR$">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.constletvar.js">
     <configuration default="false" name="filter.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="filter.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
@@ -135,6 +143,9 @@
       <method />
     </configuration>
     <configuration default="false" name="reduce.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="reduce.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="constletvar.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="constletvar.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -197,19 +208,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.map.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.filter.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.find.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.everysome.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.reduce.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.filter.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.find.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.everysome.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.reduce.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.constletvar.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.reduce.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.everysome.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.find.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.filter.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.map.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.constletvar.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.reduce.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.everysome.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.find.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.filter.js" />
       </list>
     </recent_temporary>
   </component>
@@ -227,12 +238,12 @@
       <option name="presentableId" value="Default" />
       <updated>1482124746348</updated>
       <workItem from="1482124747475" duration="11373000" />
-      <workItem from="1484026329690" duration="4175000" />
+      <workItem from="1484026329690" duration="5153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15548000" />
+    <option name="totallyTimeSpent" value="16526000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
@@ -335,8 +346,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reduce.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="459">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/constletvar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
