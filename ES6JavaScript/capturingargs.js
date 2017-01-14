@@ -2,6 +2,8 @@
  * Created by danny on 1/14/2017.
  */
 
+console.log(calculateProduct(1, 2, 3));
+
 const defaultColors = ['red', 'green'];
 const userFavoriteColors = ['organge','yellow'];
 const fallColors = ['fire red', 'fall orange'];
