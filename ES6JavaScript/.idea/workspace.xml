@@ -98,7 +98,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="capturingargs.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="capturingargs.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/capturingargs.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -106,6 +106,16 @@
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="destructing.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/destructing.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,6 +145,7 @@
         <option value="$PROJECT_DIR$/functionliterals.js" />
         <option value="$PROJECT_DIR$/defaultarguments.js" />
         <option value="$PROJECT_DIR$/capturingargs.js" />
+        <option value="$PROJECT_DIR$/destructing.js" />
       </list>
     </option>
   </component>
@@ -190,10 +201,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
   </component>
-  <component name="RunManager" selected="Node.js.capturingargs.js">
-    <configuration default="false" name="templateString.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="templateString.js" working-dir="$PROJECT_DIR$">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.destructing.js">
     <configuration default="false" name="arrowfunc.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="arrowfunc.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
@@ -204,6 +212,9 @@
       <method />
     </configuration>
     <configuration default="false" name="capturingargs.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="capturingargs.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="destructing.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="destructing.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -266,19 +277,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.templateString.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.arrowfunc.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.functionliterals.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.defaultarguments.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.capturingargs.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.arrowfunc.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.functionliterals.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.defaultarguments.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.capturingargs.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.destructing.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.capturingargs.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.defaultarguments.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.functionliterals.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.arrowfunc.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.templateString.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.destructing.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.capturingargs.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.defaultarguments.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.functionliterals.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.arrowfunc.js" />
       </list>
     </recent_temporary>
   </component>
@@ -297,12 +308,12 @@
       <updated>1482124746348</updated>
       <workItem from="1482124747475" duration="11373000" />
       <workItem from="1484026329690" duration="13694000" />
-      <workItem from="1484405944364" duration="2426000" />
+      <workItem from="1484405944364" duration="2892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27493000" />
+    <option name="totallyTimeSpent" value="27959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
@@ -312,7 +323,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -445,6 +456,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -519,6 +531,14 @@
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/destructing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
