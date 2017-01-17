@@ -1,3 +1,36 @@
+
+
+function signup({username, password, email, dob, city}){
+  console.log(username, password, email, dob, city);
+}
+
+const user = {
+    username: 'my name',
+    password: 'pw',
+    email: 'mail@mail',
+    dob: 'dob',
+    city: 'city'
+}
+
+signup(user);
+
+const Google = {
+    locations: ['Mointain View', 'New York', 'London']
+};
+
+const { locations: [locatun] } = Google;
+console.log(locatun);
+
+
+const companyes = [
+    {name: 'Google', location: 'Mointain View'},
+    {name: 'Facebook', location: 'Menlo Park'},
+    {name: 'Uber', location: 'San Fransico'}
+];''
+
+const [{location}] = companyes;
+console.log(location);
+
 const companies = [
   'Google',
     'Facebook',
