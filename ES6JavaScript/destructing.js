@@ -4,11 +4,11 @@ const points = [
     [0, 40]
 ];
 
-points.map(([x, y]) => {
-    return {x, y};
+derps = points.map(([x, y]) => {
+    return {x: x, y:y};
 });
 
-console.log(points);
+console.log(derps);
 
 
 function signup({username, password, email, dob, city}){
