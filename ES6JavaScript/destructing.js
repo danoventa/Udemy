@@ -1,3 +1,15 @@
+const numbers = [1, 2, 3];
+
+function double(arrie, ...rest){
+    if(1 === rest[1]){
+        return arrie + rest[0]
+    }else{
+        return double(arrie, arrie, 1)
+    }
+}
+
+console.log(double(numbers));
+
 const points = [
     [4, 5],
     [10, 1],
