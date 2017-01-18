@@ -1,10 +1,14 @@
 const numbers = [1, 2, 3];
 
 function double(arrie, ...rest){
-    if(1 === rest[1]){
-        return arrie + rest[0]
+    if(1 === rest[0]){
+        var ret_arr = [];
+        for(var i = 0; i < arrie.length; i++){
+            ret_arr.push(arrie[i] * 2);
+        };
+        return ret_arr;
     }else{
-        return double(arrie, arrie, 1)
+        return double(arrie, 1)
     }
 }
 
