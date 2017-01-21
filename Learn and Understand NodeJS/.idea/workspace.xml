@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/express/views/index.ejs" line="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f833939-d374-451c-aa08-e24e2143678a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ES6JavaScript/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ES6JavaScript/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="3f833939-d374-451c-aa08-e24e2143678a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -126,6 +123,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -196,7 +194,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -336,11 +333,12 @@
       <workItem from="1482806970761" duration="601000" />
       <workItem from="1483218895208" duration="1305000" />
       <workItem from="1484366262549" duration="605000" />
+      <workItem from="1484919661475" duration="36000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57238000" />
+    <option name="totallyTimeSpent" value="57274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
