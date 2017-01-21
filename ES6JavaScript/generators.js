@@ -1,6 +1,10 @@
 const testingTeam = {
     lead: 'Amanda',
-    tester: 'Bill'
+    tester: 'Bill',
+    [Symbol.iterator]: function*(){
+        yield this.lead;
+        yield this.tester;
+    }
 }
 
 const engineringTeam = {
@@ -9,24 +13,17 @@ const engineringTeam = {
     department: 'Engineering',
     lead: 'Jill',
     manager: 'Alex',
-    engineer: 'Dave'
-}
-
-function* TestingTeamIterator(team){
-    yield team.lead;
-    yield team.tester;
-}
-
-function* TeamIterator(team){
-    yield team.lead;
-    yield team.manager;
-    yield team.engineer;
-    const testingTeamGenerator = TestingTeamIterator(team.testingTeam);
-    yield* testingTeamGenerator;
+    engineer: 'Dave',
+    [Symbol.iterator]: function*(){
+        yield this.lead;
+        yield this.manager;
+        yield this.engineer;
+        yield* this.testingTeam;
+    }
 }
 
 const names = [];
-for(let name of TeamIterator(engineringTeam)){
+for(let name of engineringTeam){
     names.push(name);
 }
 console.log(names);
