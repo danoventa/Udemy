@@ -1,6 +1,10 @@
-
+const testingTeam = {
+    lead: 'Amanda',
+    tester: 'Bill'
+}
 
 const engineringTeam = {
+    testingTeam,
     size: 3,
     department: 'Engineering',
     lead: 'Jill',
@@ -8,10 +12,17 @@ const engineringTeam = {
     engineer: 'Dave'
 }
 
+function* TestingTeamIterator(team){
+    yield team.lead;
+    yield team.tester;
+}
+
 function* TeamIterator(team){
     yield team.lead;
     yield team.manager;
     yield team.engineer;
+    const testingTeamGenerator = TestingTeamIterator(team.testingTeam);
+    yield* testingTeamGenerator;
 }
 
 const names = [];
