@@ -1,3 +1,13 @@
+let tame = 'Mags';
+let description = `
+  
+                    Like this! ${tame}
+`;
+
+console.log(description);
+
+
+
 // rest
 let numbers = [1, 2, 3,4 ,5 ];
 
