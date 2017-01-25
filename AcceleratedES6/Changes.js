@@ -1,3 +1,23 @@
+// object destructuring
+let oj = {
+    nay: 'Dan',
+    ay: 90
+};
+
+let {nay, ay} = oj;
+console.log(nay, ay)
+
+let x = 5;
+let y = 10;
+[y, x] = [x, y];
+console.log(x, y);
+
+// array destructions
+let numbas = [1, 2, 3];
+let [a, ...b] = numbas;
+console.log(a, b);
+
+// Template literals
 let tame = 'Mags';
 let description = `
   
