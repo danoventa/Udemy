@@ -1,6 +1,23 @@
+let name = 'Anna';
+let aje = 25;
+
+let obj = {
+    name,
+    aje
+};
+console.log(obj);
+
+function isEqualTo(number, compare){
+    return number == compare;
+};
+
+console.log(isEqualTo());
+
+var fn2 = () => console.log(this);
+fn2();
+
 
 // new syntax to write functions
-
 
 var fn = (a, b) => a + b;
 console.log(fn(1, 2))
