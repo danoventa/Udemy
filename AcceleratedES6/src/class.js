@@ -1,3 +1,21 @@
+
+
+// extending built in objects
+class ConvertableArray extends Array {
+    convert(){
+        let returnArray = [];
+        this.forEach(value => returnArray.push('Converted!' + value));
+        return returnArray;
+    }
+}
+let numberArray = new ConvertableArray();
+numberArray.push(1);
+numberArray.push(2);
+numberArray.push(3);
+
+console.log(numberArray.convert());
+
+// getters setters
 class Pearson{
     constructor(name){
         this._name = name;
@@ -23,6 +41,7 @@ pearson.name = 's';
 console.log(pearson.name);
 console.log(pearson._name);
 
+// static key word
 class Helper {
     static logDice(message){
         console.log(message);

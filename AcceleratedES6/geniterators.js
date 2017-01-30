@@ -1,4 +1,29 @@
+let obj = {
+    [Symbol.iterator] : gen
+}
+
+function *gen(){
+    yield 1;
+    yield 2;
+}
+
+function *select(){
+    yield 'House';
+    yield 'Garage';
+}
+
+for (let element of obj ){
+    console.log(element);
+}
+
+let it = select();
+console.log(it.next());
+console.log(it.next());
+console.log(it.next());
+
+
 // custom iterable objects
+
 let person1 = {
     name: 'Mags',
     hobbies: ['reading', 'derping', 'writing', '<3'],
