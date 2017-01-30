@@ -1,3 +1,20 @@
+
+
+function *genz(end){
+    for (let i=0; i<end;i++){
+        try {
+            yield i;
+        }catch(e){
+            console.log(e);
+        }
+    }
+}
+let id = genz(3);
+console.log(id.next());
+console.log(id.return('THIS IS A BAD ERROR'));
+console.log(id.next());
+console.log(id.next());
+
 let obj = {
     [Symbol.iterator] : gen
 }
