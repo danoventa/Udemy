@@ -1,3 +1,28 @@
+class Pearson{
+    constructor(name){
+        this._name = name;
+    }
+
+    get name(){
+        return this._name.toUpperCase();
+    }
+
+    set name(value){
+        if (value.length > 2){
+            this._name = value;
+        }
+    }
+}
+
+let pearson = new Pearson('Daxx');
+console.log(pearson.name);
+pearson.name = 'Dars';
+console.log(pearson.name);
+console.log(pearson._name);
+pearson.name = 's';
+console.log(pearson.name);
+console.log(pearson._name);
+
 class Helper {
     static logDice(message){
         console.log(message);
