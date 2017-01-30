@@ -1,3 +1,19 @@
+class Helper {
+    static logDice(message){
+        console.log(message);
+        console.log('dice');
+    }
+
+    logDice(message){
+        console.log(message);
+        console.log('normal dice');
+    }
+}
+Helper.logDice('Fancier');
+
+let helper = new Helper();
+helper.logDice('Fancy');
+
 class  Person{
     constructor(name = 'Unnamed :('){
         this.name = name;
