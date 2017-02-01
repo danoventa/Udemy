@@ -28,11 +28,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="geniterators.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="geniterators.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/geniterators.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="promises.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/promises.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -130,6 +140,7 @@
         <option value="$PROJECT_DIR$/src/modules.js" />
         <option value="$PROJECT_DIR$/src/class.js" />
         <option value="$PROJECT_DIR$/geniterators.js" />
+        <option value="$PROJECT_DIR$/promises.js" />
       </list>
     </option>
   </component>
@@ -222,7 +233,7 @@
       <recent name="C:\Users\danny\Documents\GitHub\Udemy\AcceleratedES6\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.geniterators.js">
+  <component name="RunManager" selected="Node.js.promises.js">
     <configuration default="false" name="symbols.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="symbols.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
@@ -232,10 +243,10 @@
     <configuration default="false" name="modules.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/src/modules.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
-    <configuration default="false" name="external.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/src/external.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="class.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="class.js" working-dir="$PROJECT_DIR$/src">
       <method />
     </configuration>
-    <configuration default="false" name="class.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="class.js" working-dir="$PROJECT_DIR$/src">
+    <configuration default="false" name="promises.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="promises.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -301,16 +312,16 @@
       <item index="0" class="java.lang.String" itemvalue="Node.js.symbols.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.geniterators.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.modules.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.external.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.class.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.class.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.promises.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.geniterators.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.class.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.modules.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.symbols.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.external.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.promises.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.geniterators.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.class.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.modules.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.symbols.js" />
       </list>
     </recent_temporary>
   </component>
@@ -328,12 +339,12 @@
       <option name="presentableId" value="Default" />
       <updated>1485147954561</updated>
       <workItem from="1485147955695" duration="9456000" />
-      <workItem from="1485526149056" duration="4912000" />
+      <workItem from="1485526149056" duration="5835000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14368000" />
+    <option name="totallyTimeSpent" value="15291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
@@ -516,6 +527,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/promises.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
           <folding />
         </state>
       </provider>
