@@ -1,4 +1,23 @@
+// uising race in promises
+let promise2 = new Promise(function(resolve, reject){
+    setTimeout(function() {
+        reject('Rejected');
+    }, 1000);
+});
+let promise1 = new Promise(function(resolve, reject){
+    setTimeout(function() {
+        resolve('Resolved');
+    }, 1000);
+});
 
+// order of promise in this case seems to matter (the above order)
+Promise.race([promise1,promise2])
+    .then(function(success){
+        console.log(success);
+    })
+    .catch(function(error){
+        console.log(error);
+    });
 
 // chained promises, with error
 function waitASecond(seconds){
