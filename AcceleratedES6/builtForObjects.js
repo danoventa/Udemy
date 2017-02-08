@@ -4,6 +4,26 @@
 
 
 
+// Number functions
+
+let floot = 10.22;
+console.log(Number.isInteger(floot));
+console.log(Number.isFinite(floot));
+
+let int = 10;
+console.log(Number.isInteger(int));
+console.log(Number.isFinite(int));
+
+let infinity = Infinity;
+console.log(Number.isInteger(infinity));
+console.log(Number.isFinite(infinity));
+
+let numbo = NaN;
+console.log(Number.isNaN(numbo));
+
+let name = 'Maximilian';
+console.log(name.includes('Max'));
+
 let dec = -3.333313;
 console.log(Math.trunc(dec));
 
