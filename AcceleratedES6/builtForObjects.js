@@ -2,7 +2,30 @@
  * Created by danny on 2/4/2017.
  */
 
+// Arrays
 
+
+
+let haroo = [1, 3, 5, 7, 9];
+// stops after first match.
+console.log(haroo.find(val => val >= 4));
+
+let arroo = [10, 12, 13];
+arroo.fill(100);
+console.log(arroo);
+
+// use fill with specific indexes
+let arrooh = [10, 12, 13];
+arrooh.fill(100, 0, 2);
+console.log(arrooh);
+
+let arrie = Array(5);
+let arrie5 = Array.of(5, 6, 7);
+console.log(arrie);
+console.log(arrie5);
+
+let newArrie = Array.from(arrie5, val => val * 2);
+console.log(newArrie);
 
 // Number functions
 
@@ -21,9 +44,11 @@ console.log(Number.isFinite(infinity));
 let numbo = NaN;
 console.log(Number.isNaN(numbo));
 
+// strings
 let name = 'Maximilian';
 console.log(name.includes('Max'));
 
+// Math
 let dec = -3.333313;
 console.log(Math.trunc(dec));
 
