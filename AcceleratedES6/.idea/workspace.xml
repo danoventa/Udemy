@@ -48,11 +48,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="builtForObjects.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="builtForObjects.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/builtForObjects.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="459">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#40#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mapsets.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mapsets.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -87,16 +99,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -144,6 +146,7 @@
         <option value="$PROJECT_DIR$/geniterators.js" />
         <option value="$PROJECT_DIR$/promises.js" />
         <option value="$PROJECT_DIR$/builtForObjects.js" />
+        <option value="$PROJECT_DIR$/mapsets.js" />
       </list>
     </option>
   </component>
@@ -236,11 +239,8 @@
       <recent name="C:\Users\danny\Documents\GitHub\Udemy\AcceleratedES6\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.builtForObjects.js">
+  <component name="RunManager" selected="Node.js.mapsets.js">
     <configuration default="false" name="geniterators.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="geniterators.js" working-dir="$PROJECT_DIR$">
-      <method />
-    </configuration>
-    <configuration default="false" name="modules.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/src/modules.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="false" name="class.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="class.js" working-dir="$PROJECT_DIR$/src">
@@ -250,6 +250,9 @@
       <method />
     </configuration>
     <configuration default="false" name="builtForObjects.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="builtForObjects.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="mapsets.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="mapsets.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -313,18 +316,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.geniterators.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.modules.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.class.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.promises.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.builtForObjects.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.class.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.promises.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.builtForObjects.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.mapsets.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.builtForObjects.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.promises.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.geniterators.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.class.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.modules.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.mapsets.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.builtForObjects.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.promises.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.geniterators.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.class.js" />
       </list>
     </recent_temporary>
   </component>
@@ -342,12 +345,12 @@
       <option name="presentableId" value="Default" />
       <updated>1485147954561</updated>
       <workItem from="1485147955695" duration="9456000" />
-      <workItem from="1485526149056" duration="12213000" />
+      <workItem from="1485526149056" duration="12907000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21669000" />
+    <option name="totallyTimeSpent" value="22363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
@@ -544,8 +547,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/builtForObjects.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        <state relative-caret-position="459">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapsets.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>
