@@ -3,7 +3,11 @@
  */
 
 // Arrays
+let arrow = [1, 2, 3];
 
+console.log(arrow.copyWithin(2, 1, 3));
+console.log(arrow.copyWithin(1, 0, 1));
+console.log(arrow.copyWithin(1, 0, 2));
 
 
 let haroo = [1, 3, 5, 7, 9];
