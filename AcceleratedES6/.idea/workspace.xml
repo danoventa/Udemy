@@ -60,13 +60,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mapsets.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mapsets.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mapsets.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="69" lean-forward="false" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+            <state relative-caret-position="17">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reflectapi.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/reflectapi.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc;n#Person#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -99,16 +111,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".babelrc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.babelrc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -147,6 +149,7 @@
         <option value="$PROJECT_DIR$/promises.js" />
         <option value="$PROJECT_DIR$/builtForObjects.js" />
         <option value="$PROJECT_DIR$/mapsets.js" />
+        <option value="$PROJECT_DIR$/reflectapi.js" />
       </list>
     </option>
   </component>
@@ -239,11 +242,8 @@
       <recent name="C:\Users\danny\Documents\GitHub\Udemy\AcceleratedES6\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.mapsets.js">
+  <component name="RunManager" selected="Node.js.reflectapi.js">
     <configuration default="false" name="geniterators.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="geniterators.js" working-dir="$PROJECT_DIR$">
-      <method />
-    </configuration>
-    <configuration default="false" name="class.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="class.js" working-dir="$PROJECT_DIR$/src">
       <method />
     </configuration>
     <configuration default="false" name="promises.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="promises.js" working-dir="$PROJECT_DIR$">
@@ -253,6 +253,9 @@
       <method />
     </configuration>
     <configuration default="false" name="mapsets.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="mapsets.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="reflectapi.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="reflectapi.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -316,18 +319,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.geniterators.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.class.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.promises.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.builtForObjects.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.mapsets.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.promises.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.builtForObjects.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.mapsets.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.reflectapi.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.mapsets.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.builtForObjects.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.promises.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.geniterators.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.class.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.reflectapi.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.mapsets.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.builtForObjects.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.promises.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.geniterators.js" />
       </list>
     </recent_temporary>
   </component>
@@ -345,12 +348,12 @@
       <option name="presentableId" value="Default" />
       <updated>1485147954561</updated>
       <workItem from="1485147955695" duration="9456000" />
-      <workItem from="1485526149056" duration="13339000" />
+      <workItem from="1485526149056" duration="13772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22795000" />
+    <option name="totallyTimeSpent" value="23228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
@@ -557,10 +560,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mapsets.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="69" lean-forward="false" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+        <state relative-caret-position="17">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reflectapi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc;n#Person#0" expanded="false" />
           </folding>
         </state>
       </provider>
