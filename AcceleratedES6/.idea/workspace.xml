@@ -72,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reflectapi.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reflectapi.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reflectapi.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="595">
@@ -80,6 +80,16 @@
               <folding>
                 <element signature="n#!!doc;n#Erson#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proxyapi.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/proxyapi.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,16 +111,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -150,6 +150,7 @@
         <option value="$PROJECT_DIR$/builtForObjects.js" />
         <option value="$PROJECT_DIR$/mapsets.js" />
         <option value="$PROJECT_DIR$/reflectapi.js" />
+        <option value="$PROJECT_DIR$/proxyapi.js" />
       </list>
     </option>
   </component>
@@ -242,10 +243,7 @@
       <recent name="C:\Users\danny\Documents\GitHub\Udemy\AcceleratedES6\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.reflectapi.js">
-    <configuration default="false" name="geniterators.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="geniterators.js" working-dir="$PROJECT_DIR$">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.proxyapi.js">
     <configuration default="false" name="promises.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="promises.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
@@ -256,6 +254,9 @@
       <method />
     </configuration>
     <configuration default="false" name="reflectapi.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="reflectapi.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="proxyapi.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="proxyapi.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -318,19 +319,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.geniterators.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.promises.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.builtForObjects.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.mapsets.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.reflectapi.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.promises.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.builtForObjects.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.mapsets.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.reflectapi.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.proxyapi.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.reflectapi.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.mapsets.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.builtForObjects.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.promises.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.geniterators.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.proxyapi.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.reflectapi.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.mapsets.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.builtForObjects.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.promises.js" />
       </list>
     </recent_temporary>
   </component>
@@ -348,12 +349,12 @@
       <option name="presentableId" value="Default" />
       <updated>1485147954561</updated>
       <workItem from="1485147955695" duration="9456000" />
-      <workItem from="1485526149056" duration="16308000" />
+      <workItem from="1485526149056" duration="16662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25764000" />
+    <option name="totallyTimeSpent" value="26118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
@@ -575,6 +576,14 @@
           <folding>
             <element signature="n#!!doc;n#Erson#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxyapi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
