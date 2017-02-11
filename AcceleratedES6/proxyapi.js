@@ -1,5 +1,23 @@
 
 
+// Proxy for flow control
+function log(message){
+    console.log('Log entry created, message: ' + message);
+}
+
+let handla = {
+    apply: function(target, thisArg, argumentsList){
+        if(argumentsList.length == 1){
+            return Reflect.apply(target, thisArg, argumentsList);
+        }
+    }
+};
+
+let peroxide = new Proxy(log, handla);
+peroxide("holla");
+peroxide("holla", 1);
+
+// proxies, functions and prototypes can be wrapped with proxys
 // handler for proxy, leads to less code! :)
 let doge = {
     name: 'Tenticles',
