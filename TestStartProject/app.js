@@ -1,7 +1,8 @@
-import * as ELEMENTS from 'elements.js';
+import * as ELEMENTS from 'elements';
 
 ELEMENTS.ELEMENT_SEARCH_BUTTON.addEventListener('click', searchWeather);
 
 function searchWeather(){
-    alert('HIII')
+    const CITY_NAME = ELEMENTS.ELEMENT_SEARCHED_CITY.value;
+    alert("HAII");
 }
