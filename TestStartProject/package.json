@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "transpile-es2015": "babel app.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-latest": "^6.22.0"
+  }
+}
