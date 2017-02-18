@@ -22,10 +22,10 @@
     </TaskOptions>
     <TaskOptions isEnabled="true">
       <option name="arguments" value="" />
-      <option name="checkSyntaxErrors" value="true" />
+      <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
-      <option name="fileExtension" value="es6" />
+      <option name="fileExtension" value="js" />
       <option name="immediateSync" value="true" />
       <option name="name" value="Traceur" />
       <option name="output" value="" />
@@ -36,7 +36,7 @@
       <option name="program" value="$USER_HOME$/AppData/Roaming/npm/node_modules/traceur/bin/traceur.js" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
-      <option name="workingDir" value="$PROJECT_DIR$/src" />
+      <option name="workingDir" value="$ProjectFileDir$" />
       <envs />
     </TaskOptions>
   </component>
