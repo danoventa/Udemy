@@ -1,7 +1,6 @@
-// import * as ELEMENTS from 'elements';
-import * as ELEMENTS from 'elements';
-import {Http} from 'http';
-import {WeatherData} from 'weather-data';
+import * as ELEMENTS from '/src/elements';
+import {Http} from 'src/http';
+import {WeatherData} from 'src/weather-data';
 
 APP_ID = '';
 
@@ -21,4 +20,12 @@ function searchWeather(){
             WEATHER_PROXY.temperature = responseData
         })
         .catch(error => alert(error));
+}
+
+function updateWeather(weatherData){
+    ELEMENTS.ELEMENT_WEATHER_CITY.textContent = weatherData.cityName;
+    ELEMENTS.ELEMENT_WEATHER_DESCRIPTION.textContent = weatherData.description;
+    ELEMENTS.ELEMENT_WEATHER_TEMPERATURE.textContent = weatherData.temperature;
+
+    ELEMENTS.ELEMENT_WEATHER_BOX.style.display = 'block';
 }

@@ -1,11 +1,15 @@
 {
   "scripts": {
-    "transpile-es2015": "babel app.js"
+    "transpile-es2015": "traceur app.js"
   },
   "devDependencies": {
     "babel-cli": "^6.23.0",
     "babel-plugin-transform-export-extensions": "^6.22.0",
     "babel-preset-env": "^1.1.8",
     "babel-preset-latest": "^6.22.0"
+  },
+  "dependencies": {
+    "jspm": "^0.16.52",
+    "traceur": "0.0.111"
   }
 }
