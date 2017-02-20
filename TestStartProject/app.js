@@ -1,4 +1,4 @@
-import * as ELEMENTS from '/src/elements';
+import * as ELEMENTS from '/elements';
 import {Http} from 'src/http';
 import {WeatherData} from 'src/weather-data';
 
